@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-#This program explores a method (%) of formatting strings
+#This program explores methods of formatting strings
 
 high_school = input("Which HighSchool did you attend? : ")
 city = input("In which city was your highschool located? : ")

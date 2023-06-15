@@ -20,4 +20,7 @@ def whats_my_age(my_name, year_of_birth, current_year):
     print("{} you are {} years old".format(my_name, my_age))
 
 #calling the function
-whats_my_age("Maryane Mwende", 1999, 2023)
+whats_my_age("Maryane Mwende", 1999, 2023) #here we have used positional arguments
+
+#using keyword arguments
+whats_my_age(current_year=2023, year_of_birth=1999, my_name="Maryane Mwende")

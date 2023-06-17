@@ -46,3 +46,21 @@ print(count)
 nums = [3, 5, 7, 2, 6, 1, 4]
 nums.sort()
 print(nums)
+
+print(min(nums))
+print(max(nums))
+
+for index, colours in enumerate(rainbow_colours):
+    print(index, colours)
+
+for index, colours in enumerate(rainbow_colours, start=1):
+    print(index, colours)
+
+for colours in rainbow_colours:
+    print(colours)
+
+#list into string
+colours_str = ', '.join(rainbow_colours)
+new_list = colours_str.split(' - ')
+print(colours_str)
+print(new_list)

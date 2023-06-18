@@ -43,3 +43,12 @@ names_set.remove('Maryane')
 print(names_set)
 names_set.discard('Mbash')
 print(names_set)
+
+set_a = {'Pangani', 'Alx', 'Premese'}
+set_b = {'Precious Blood', 'Alx', 'Premese'}
+print()
+print(set_a)
+print(set_b)
+print(set_a - set_b)
+print(set_a | set_b)
+print(set_a ^ set_b)
